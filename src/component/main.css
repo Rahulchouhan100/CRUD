@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(100, 97, 97, 0.867);
+  color: white;
+  width: 30%;
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+}
+.user-details div:nth-child(1) span {
+  margin-left: 1rem;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
